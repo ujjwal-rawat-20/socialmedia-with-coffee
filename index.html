@@ -14,7 +14,21 @@
 </head>
 <body>
         <div class="page-one">
+            <div onclick="closeMenu(event)" class="mobile-menu-modal"></div>
+            <div class="mobile-menu">
+                <p>Home</p>
+                <p>About</p>
+                <p>Menu</p>
+                <p>Blog</p>
+                <p>Shop</p>
+                <p>Contact</p>
+            </div>
+
             <div class="navbar">
+                <div onclick="openMenu(event)" class="burger-menu">
+                    <img src="./burger-menu.png" />
+                </div>
+
                 <div class="links">
                     <p>Home</p>
                     <p>About</p>
@@ -31,6 +45,10 @@
             <div class="main-coffee">
                     <div class="main-coffee-text">
                         <div class="heading">Coffee Time</div>
+                        <div class="mobile-main-image">
+                            <img src="./BigImage.png" />
+                        </div>
+
                         <div class="sub-heading">YOUR HEADLINE</div>
                         <div class="para">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -315,6 +333,48 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        window.addEventListener("resize", (event) => {
+             if (checkWindowWidth(768)) {
+                 const menu = document.querySelector(".mobile-menu-modal");
+                 menu.style.display = "none";
+             }
+         });
+ 
+ 
+         window.onscroll = function (e) {  
+             const menu = document.querySelector(".mobile-menu-modal");
+             const menuBar = document.querySelector(".mobile-menu");
+ 
+             menu.style.display = "none";
+             menuBar.style.left = "-50%";
+         } 
+ 
+ 
+         function checkWindowWidth(width) {
+             return window.innerWidth >= width;
+         }
+ 
+         function openMenu(e) {
+             e.stopPropagation();
+             const menu = document.querySelector(".mobile-menu-modal");
+             const menuBar = document.querySelector(".mobile-menu");
+ 
+             menu.style.display = "block";
+             menuBar.style.left = "0%";
+         }
+ 
+         function closeMenu(e) {
+             e.stopPropagation();
+             const menu = document.querySelector(".mobile-menu-modal");
+             const menuBar = document.querySelector(".mobile-menu");
+             menu.style.display = "none";
+             menuBar.style.left = "-50%";
+         }
+ 
+     </script>
 
 </body>
 </html>
