@@ -1,0 +1,1058 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #222831;
+}
+
+.page-one {
+    width: 100%;
+    height: 100%;
+    background-color: #222831;
+    background-image: url(mask_6.png);
+    background-repeat: no-repeat;
+    background-position: top 89% right 0px;
+    background-size: 55%, auto;
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 3%;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.navbar .links {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.navbar .links, .logo {
+    width: 100%;
+    text-align: right;
+}
+
+.navbar .links, .logo img {
+    width: 140px;
+}
+
+.main-coffee {
+    background-image: url(vector_smart_object_doubl_43.png), url(vector_smart_object_doubl_31.png), url(vector_smart_object_doubl_44.png);
+    background-position: top 5% right 32%, top 66% right 49%, bottom 0% left 30%;
+    background-size: 5% 13%;
+    background-repeat: no-repeat;
+}
+
+/* .main-coffee { */
+    /* color: white; */
+    /* display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-top: 2%;
+    background-image: url(mask_6.png);
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+    background-size: 538px 481px; */
+/* } */
+
+
+/* .main-coffee-image {
+    background-image: url(mask_6.png);
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+    background-size: 395px 454px;
+} */
+
+.main-coffee-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-coffee-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 3%;
+}
+
+.main-coffee-text .heading {
+    font-size: 150px;
+    letter-spacing: 6px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    padding: 15px 0;
+}
+
+.main-coffee-text .sub-heading {
+    font-size: 33px;    
+    letter-spacing: 2px;
+    line-height: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 15px 0;
+}
+
+.main-coffee-text .para {
+    width: 45%;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 15px 0;
+}
+
+.main-coffee-text .btn {
+    background-color: #29a19c;
+    color: white;
+    padding: 10px 36px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 24px
+}
+
+.main-patten {
+    width: 100%;
+    /* padding: 29px 0; */
+}
+
+.main-patten img {
+    width: 100%;
+    height: 100%;
+}
+
+.second-container {
+    width: 100%;
+    height: 100%;
+    background-color: #29a19c;
+    background-image: url(vector_smart_object_doubl_46.png), url(vector_smart_object_doubl_16.png),
+     url(vector_smart_object_doubl_38.png), url(vector_smart_object_doubl_37.png), 
+     url(vector_smart_object_doubl_32.png);
+    background-position: top 8% left 23%, top 15% right 9%, top 19% left 40%, bottom 32% left 40%, bottom 10% left 10%;
+    background-size: 4% 10%, 6% 12%, 3% 8%, 7% 13%;
+    background-repeat: no-repeat;
+}
+
+
+.second-container .inner-container {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+
+.second-container .inner-container .block-one {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.second-container .inner-container .block-two {
+    width: 40%;
+}
+
+.second-container .inner-container .block-two .img-container img {
+    width: 90%;
+    height: 100%;
+}
+
+.second-container .inner-container .block-two .para-container {
+    width: 100%;
+    padding: 5% 0;
+}
+
+
+.second-container .inner-container .block-two .para-container p {
+    word-break: break-all;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: right;
+    line-height: 28px;
+}
+
+.second-container .inner-container .block-one .black-coffee{
+    font-size: 58px;
+    letter-spacing: 5px;
+    line-height: 113px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+}
+
+.second-container .inner-container .block-one .order-button {
+    padding-top: 10%;
+}
+
+.second-container .inner-container .block-one .order-button button{
+    font-size: 26px;
+    background-color: #222831;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    outline: none;
+    padding: 1% 3%;
+    border: none;
+    border-radius: 10px;
+}
+
+.pattern {
+    height: 25%;
+}
+
+.pattern img {
+    width: 100%;
+    height: 100%;
+}
+
+.second-container .inner-container {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+
+
+
+.third-container {
+    width: 100%;
+    background-image: url(vector_smart_object_doubl_19.png), url(vector_smart_object_doubl_38.png), url(vector_smart_object_doubl_38.png), url(vector_smart_object_doubl_30.png);
+    background-position: top 9% left 7%, top 15% right 44%, bottom 43% right 5%, bottom 14% left 64%;
+    background-size: 5% 12%, 4% 8%, 5% 10%, 8% 17%;
+    background-repeat: no-repeat;
+}
+
+.third-container .inner-container {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+
+.third-container .inner-container .block-one {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-container .inner-container .block-zero {
+    display: none;
+}
+
+.third-container .inner-container .block-two {
+    width: 40%;
+    padding-bottom: 10%;
+}
+
+.third-container .inner-container .block-one .img-container img {
+    width: 90%;
+    height: 100%;
+}
+
+.third-container .inner-container .block-one .para-container {
+    width: 100%;
+    padding: 5% 0;
+}
+
+
+.third-container .inner-container .block-one .para-container p {
+    word-break: break-all;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: right;
+    line-height: 28px;
+}
+
+.third-container .inner-container .block-two .hot-coffee{
+    font-size: 58px;
+    letter-spacing: 5px;
+    line-height: 96px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    padding-bottom: 13%;
+}
+
+.third-container .inner-container .two-one .order-button {
+    padding-top: 10%;
+}
+
+.third-container .inner-container .block-two .order-button button{
+    font-size: 26px;
+    background-color: #29a19c;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    outline: none;
+    padding: 1% 3%;
+    border: none;
+    border-radius: 10px;
+}
+
+.third-container .block-two .hot-coffee, .third-container .block-two .order-button {
+    text-align: right;
+}
+
+
+
+.fourth-container {
+    width: 100%;
+    background-image: url(vector_smart_object_doubl_6.png), url(vector_smart_object_doubl_16.png), url(vector_smart_object_doubl_6.png);
+    background-position: top 9% left 26%, top 26% right 8%, bottom 45% right 59%;
+    background-size: 4% 8%, 5% 11%, 4% 8%;
+    background-repeat: no-repeat;
+}
+
+.fourth-container .inner-container {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.fourth-container .inner-container .black-coffee-mobile {
+    display: none;
+}
+
+.fourth-container .inner-container .block-one {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.fourth-container .inner-container .block-two {
+    width: 40%;
+}
+
+.fourth-container .inner-container .block-two .img-container img {
+    width: 90%;
+    height: 100%;
+}
+
+.fourth-container .inner-container .block-two .para-container {
+    width: 100%;
+    padding: 5% 0;
+}
+
+
+.fourth-container .inner-container .block-two .para-container p {
+    word-break: break-all;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: right;
+    line-height: 28px;
+}
+
+.fourth-container .inner-container .block-one .black-coffee{
+    font-size: 53px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+}
+
+.fourth-container .inner-container .block-one .order-button {
+    padding-top: 10%;
+}
+
+.fourth-container .inner-container .block-one .order-button button{
+    font-size: 26px;
+    background-color: #29a19c;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat";
+    outline: none;
+    padding: 1% 3%;
+    border: none;
+    border-radius: 10px;
+}
+
+.fourth-container .inner-container .order-button {
+    display: none;
+}
+
+.fourth-container .block-two .hot-coffee, .fourth-container .block-two .order-button {
+    text-align: right;
+}
+
+
+.fifth-container {
+        width: 100%;
+        padding: 5% 15%;
+        background-image: url(vector_smart_object_doubl_25.png), url(vector_smart_object_doubl_21.png), url(vector_smart_object_doubl_29.png), url(vector_smart_object_doubl_5.png);
+        background-position: top 0px left 26%, top 26% right 8%, bottom 32% left 8%, right 6% bottom 6%;
+        background-size: 6% 10%, 4% 9%, 5% 9%, 8% 14%;
+        background-repeat: no-repeat;
+}
+
+.fifth-container .inner-container .block-one {
+    font-size: 70px;
+    color: #fefefe;
+    font-weight: 200;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.fifth-container .inner-container .block-three {
+    text-align: center;
+}
+
+.fifth-container .inner-container .block-three button{
+    font-size: 33px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    background-color: #29a19c;
+    outline: none;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+
+.sixth-container {
+    width: 100%;
+    background-image: url(vector_smart_object_doubl_25.png), url(vector_smart_object_doubl_18.png), url(vector_smart_object_doubl_24.png);
+    background-position: bottom 41% left 5%, top 25% left 50%, bottom 38% right 7%;
+    background-size: 8% 14%, 4% 9%, 6% 12%;
+    background-repeat: no-repeat;
+}
+
+.sixth-container .inner-container {
+    padding: 5% 9%;
+}
+
+.sixth-container .inner-container .block-one h1{
+    font-size: 88px;
+    line-height: 28px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.sixth-container .inner-container .block-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 7% 0px;
+}
+
+.sixth-container .inner-container .block-two .block-container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.sixth-container .inner-container .block-two .block-container-one .name,
+.sixth-container .inner-container .block-two .block-container-two .name {
+    font-size:  30px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+    padding: 5% 0;
+}
+
+
+.sixth-container .inner-container .block-two .block-container-one .desc,
+.sixth-container .inner-container .block-two .block-container-two .desc {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.sixth-container .inner-container .block-two .block-container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.seventh-container {
+    height: 45%;
+    background-color: #29a19c;
+    width: 100%;
+    background-image: url(vector_smart_object_doubl_26.png), url(vector_smart_object_doubl_30.png), url(vector_smart_object_doubl_11.png), url(vector_smart_object_doubl_18.png);
+    background-position: top 0% left 11%, top 23% right 20%, bottom 23% left 21%, right 28% bottom 0%;
+    background-size: 4% 20%, 7% 32%, 8% 37%, 5% 26%;
+    background-repeat: no-repeat;
+}
+
+.seventh-container .inner-container .block-one{
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.seventh-container .inner-container .block-two, 
+.seventh-container .inner-container .block-three{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.seventh-container .inner-container .timing {
+    padding: 3% 0;
+}
+
+.seventh-container .inner-container .timing .block-two,
+.seventh-container .inner-container .timing .block-three {
+    padding: 2% 0;
+}
+
+.seventh-container .inner-container .timing .day {
+    font-weight: 800;
+}
+
+
+.eight-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eight-container .inner-container{
+    padding-bottom: 2%;
+}
+
+.eight-container .block-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eight-container .block-two .card {
+    text-align: center;
+    width: 20%;
+}
+
+
+.eight-container .block-two .card .card-button {
+    padding: 10px 0;
+}
+
+.eight-container .block-two .card .card-button button{
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    background-color: #29a19c;
+    outline: none;
+    border: none;
+    padding: 3% 8%;
+    border-radius: 10px;
+}
+
+.eight-container .block-two .card .card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.eight-container .block-two .card .card-desc {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    word-break: break-all;
+    padding: 3% 0;
+}
+
+.eight-container .block-one{
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+    padding: 5% 0;
+}
+
+.ninth-container {
+    width: 100%;
+    background-color: #29a19c;
+}
+
+.ninth-container .inner-container {
+    padding: 3% 5%;
+}
+
+.ninth-container .block-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ninth-container .block-one div {
+    width: 100%;
+}
+
+.ninth-container .block-one div:nth-child(2),
+.ninth-container .block-one div:nth-child(3) {
+    /* text-align: center; */
+}
+
+.ninth-container .block-one .info .heading,
+.ninth-container .block-one .contact .heading {
+    font-size: 33px;
+letter-spacing: 1px;
+line-height: 61px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+}
+
+
+.ninth-container .inner-container .block-one .info-contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.ninth-container .inner-container .block-one .info-contact-container .info .heading-details,
+.ninth-container .inner-container .block-one .info-contact-container .contact .info-details  {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.ninth-container .inner-container .block-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.ninth-container .inner-container .block-two .footer-links {
+    display: flex;
+}
+
+.ninth-container .inner-container .block-two .footer-links .links{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 61px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 0 3%;
+}
+
+
+.ninth-container .inner-container .block-two .icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+}
+
+
+.ninth-container .inner-container .block-two .icons .icon {
+    padding: 0 10%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .main-patten img {
+        height: 101%;
+    }
+
+    .navbar .links {
+        display: none;
+    }
+
+    .main-coffee-text .heading {
+        line-height: 60px;
+        font-size: 34px;
+    }
+
+    .main-coffee-text .sub-heading {
+        font-size: 13px;
+        padding: 4px 0;
+    }
+
+    .main-coffee-text .para {
+        width: 45%;
+        word-break: break-all;
+        font-size: 9px;
+    }
+
+    .main-coffee-text .btn {
+        padding: 8px 30px;
+        border-radius: 14px;
+        font-weight: 500;
+        font-size: 8px;
+    }
+
+
+    .page-one {
+        width: 100%;
+        height: auto;
+        background-position: top 80% right 0px;
+        background-size: 55% 70%;
+    }
+
+    .main-patten {
+        width: 100%;
+        height: 80px;
+    }
+
+    .second-container {
+        height: auto;
+    }
+
+    .second-container .inner-container .block-two .img-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-container .inner-container .block-one {
+        text-align: center;
+    }
+
+    .second-container .inner-container .block-one .black-coffee {
+        font-size: 23px;
+        line-height: 47px;
+    }
+
+    .second-container .inner-container .block-one .order-button button {
+        display: none;
+    }
+
+    .second-container .inner-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-container .inner-container .block-one,
+    .second-container .inner-container .block-two{
+        width: 100%;
+    }
+
+    .second-container .inner-container .block-two .order-button {
+        text-align: center;
+    }
+
+    .second-container .inner-container .block-two .order-button button{
+        font-size: 16px;
+        padding: 4% 5%;
+        background-color: #222831;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Montserrat";
+        outline: none;
+        border: none;
+        border-radius: 10px
+    }
+
+
+    .second-container .inner-container .block-one .order-button button {
+        font-size: 16px;
+        padding: 4% 5%;
+    }
+
+    .third-container .inner-container .block-two .hot-coffee {
+        font-size: 20px;
+    }
+
+    .third-container .inner-container .block-one,
+    .third-container .inner-container .block-two {
+        width: 100%;
+    }
+
+    .third-container .inner-container .block-one .img-container img {
+        width: 100%;
+    }
+
+    .third-container .inner-container {
+        flex-direction: column;
+    }
+
+    .third-container .inner-container .block-zero {
+        display: block;
+        font-size: 20px;
+        letter-spacing: 5px;
+        line-height: 96px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Grand Hotel";
+        width: 100%;
+        text-align: center;
+    }
+
+    .third-container .block-two .order-button {
+        text-align: center;
+    }
+
+    .third-container .inner-container .block-two .order-button button {
+        font-size: 16px;
+        padding: 4% 5%;
+        background-color: #29a19c;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Montserrat";
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .third-container .inner-container .block-two .hot-coffee {
+        display: none;
+    }
+
+    .fourth-container .inner-container {
+        flex-direction: column;
+    }
+
+    .fourth-container .inner-container .block-one,
+    .fourth-container .inner-container .block-two {
+        width: 100%;
+    }
+
+
+    .fourth-container .inner-container .block-one .order-button {
+        display: none;
+    }
+    
+    .fourth-container .inner-container .order-button {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourth-container .inner-container .block-one {
+        padding-bottom: 0;
+    }
+
+    .fourth-container .inner-container .order-button button {
+        font-size: 16px;
+        padding: 4% 5%;
+        background-color: #29a19c;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Montserrat";
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .fourth-container .inner-container .block-one .black-coffee {
+        display: block;
+        font-size: 20px;
+        letter-spacing: 5px;
+        line-height: 96px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Grand Hotel";
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourth-container .inner-container .block-two .img-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fifth-container {
+        padding: 10% 15%;
+    }
+
+    .fifth-container .inner-container .block-one {
+        font-size: 26px;
+        color: #fefefe;
+        font-weight: 200;
+        font-family: "Grand Hotel";
+        text-align: center;
+    }
+
+    .fifth-container .inner-container .block-one,
+    .fifth-container .inner-container .block-two,
+    .fifth-container .inner-container .block-three {
+        width: 100%;
+    }
+
+    .fifth-container .inner-container .block-two {
+        padding: 5% 0;
+    }
+
+    .fifth-container .inner-container .block-two img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fifth-container .inner-container .block-three button {
+        font-size: 16px;
+        padding: 4% 5%;
+        background-color: #29a19c;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Montserrat";
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+
+    .sixth-container .inner-container .block-two .block-container-one img,
+    .sixth-container .inner-container .block-two .block-container-two img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sixth-container .inner-container .block-two .block-container-one, 
+    .sixth-container .inner-container .block-two .block-container-two {
+        width: 100%;
+        padding: 4% 0;
+    }
+
+    .sixth-container .inner-container .block-two {
+        flex-direction: column;
+    }
+
+    .sixth-container .inner-container .block-one {
+        width: 100%;
+    }
+
+
+    .sixth-container .inner-container .block-one h1 {
+        font-size: 41px;
+        line-height: 40px;
+    }
+
+    .seventh-container .inner-container .block-one {
+        font-size: 42px;
+    }
+
+    .seventh-container .inner-container .block-two, .seventh-container .inner-container .block-three {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .seventh-container .inner-container .timing .block-two {
+        padding-top: 8%;
+    }
+
+    .eight-container .block-one {
+        font-size: 42px;
+    }
+
+    .eight-container .block-two {
+        flex-direction: column;
+    }
+
+    .eight-container .block-two .card {
+        width: 100%;
+        padding: 2% 7%;
+
+    }
+
+    .eight-container .inner-container .block-two .card .card-button button {
+        font-size: 16px;
+        padding: 4% 5%;
+        background-color: #29a19c;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Montserrat";
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .ninth-container .inner-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ninth-container .block-one {
+        flex-direction: column;
+    }
+
+    .ninth-container .block-one .info .heading, .ninth-container .block-one .contact .heading {
+        font-size: 16px;
+    }
+
+    .ninth-container .inner-container .block-two .footer-links {
+        display: none;
+    }
+
+    .ninth-container .inner-container .block-two .icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+}
