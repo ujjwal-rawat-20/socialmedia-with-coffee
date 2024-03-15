@@ -22,6 +22,7 @@ body {
     z-index: 1;
     transition: all 0.5s ease-in;
     display: block;
+    font-family: "Montserrat", sans-serif;
 }
 
 .mobile-menu-modal {
@@ -30,7 +31,6 @@ body {
     height: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
-    /* pointer-events: none; */
 }
 
 .mobile-menu p {
@@ -649,6 +649,16 @@ body {
     border: none;
     padding: 3% 8%;
     border-radius: 10px;
+    position: relative;
+}
+
+.eight-container .block-two .card .card-button button .button-extension{
+    width: 14px;
+    height: 18px;
+    background-color: #22a19c;
+    position: absolute;
+    left: 0;
+    border-bottom-left-radius: 26px;
 }
 
 .eight-container .block-two .card .card-img img {
@@ -815,6 +825,11 @@ font-family: "Montserrat";
     .page-one {
         width: 100%;
         height: auto;
+        background-image: none;
+    }
+
+    .page-one .main-coffee, .second-container, .third-container, .fourth-container,
+    .fifth-container, .sixth-container, .seventh-container, .eight-container, .ninth-container{
         background-image: none;
     }
 
